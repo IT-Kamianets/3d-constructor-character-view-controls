@@ -1,0 +1,21 @@
+{
+  "name": "com.itkamianets.3d-constructor-character-view-controls",
+  "version": "0.1.0",
+  "displayName": "IT-Kamianets 3D Engine: Character View Constructor Controls",
+  "description": "Connects input to the character for the Character View constructor: camera-relative movement, look to turn, first/third-person control differences.",
+  "unity": "6000.6",
+  "license": "MIT",
+  "author": {
+    "name": "IT Kamianets"
+  },
+  "keywords": [
+    "3d-engine",
+    "it-kamianets"
+  ],
+  "dependencies": {
+    "com.itkamianets.3d-unity-core": "0.1.0",
+    "com.itkamianets.3d-unity-input": "0.1.0",
+    "com.itkamianets.3d-unity-character": "0.1.0",
+    "com.itkamianets.3d-constructor-character-view-camera": "0.1.0"
+  }
+}

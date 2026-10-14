@@ -1,0 +1,20 @@
+{
+    "name": "ITKamianets.Engine.CharacterView.Controls",
+    "rootNamespace": "ITKamianets.Engine.CharacterView",
+    "references": [
+        "ITKamianets.Engine.Core",
+        "ITKamianets.Engine.Input",
+        "ITKamianets.Engine.Character",
+        "ITKamianets.Engine.CharacterView.Camera",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
