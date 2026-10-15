@@ -126,7 +126,7 @@ namespace ITKamianets.Engine.CharacterView
             var forward = !settings.SprintForwardOnly || !facesCamera || stick.y > 0.5f;
             var moving = stick.sqrMagnitude > 0.01f;
 
-            var toggle = scheme == InputScheme.Gamepad ? settings.SprintToggleOnGamepad : settings.SprintToggle;
+            var toggle = scheme == InputScheme.Gamepad || scheme == InputScheme.Touch ? settings.SprintToggleOnGamepad : settings.SprintToggle;
             if (!toggle)
             {
                 _sprintToggled = false;

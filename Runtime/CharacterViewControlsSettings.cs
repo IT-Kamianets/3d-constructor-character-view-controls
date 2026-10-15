@@ -18,7 +18,7 @@ namespace ITKamianets.Engine.CharacterView
         [Tooltip("Sprint stays on after one press, until the player stops moving. Hold to sprint when off.")]
         public bool SprintToggle;
 
-        [Tooltip("Toggle sprint on a gamepad, where holding a stick pressed in is tiring.")]
+        [Tooltip("Toggle sprint on a gamepad or touch screen, where holding a stick pressed in, or a second finger on a button, is tiring.")]
         public bool SprintToggleOnGamepad = true;
 
         [Tooltip("Sprint only while moving forward, not sideways or backwards.")]
